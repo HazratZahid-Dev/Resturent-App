@@ -1,0 +1,12 @@
+.components__btn {
+  width: 100%;
+  @apply font-normal  bg-gradient-to-r from-yellow-500 to-yellow-700 border-yellow-600  py-3 capitalize rounded  lg:font-bold md:font-bold sm:font-normal transition-all duration-300;
+}
+.components__btn:hover {
+  @apply text-gray-50 py-4 shadow-2xl bg-gradient-to-r from-yellow-700 to-yellow-500 transition-all duration-300;
+}
+@media (max-width: 700px) {
+  .components__btn {
+    @apply font-normal;
+  }
+}

@@ -1,0 +1,20 @@
+.reviews__header {
+  @apply flex justify-center pt-20 pb-10 uppercase;
+}
+.reviews__header p {
+  @apply text-3xl font-bold;
+}
+.reviews__section {
+  @apply flex justify-evenly pb-10 flex-wrap gap-10;
+}
+.reviews__card {
+  @apply flex flex-col gap-4   px-4 py-5 rounded-lg items-center justify-center w-72 border border-yellow-400;
+}
+
+.reviews__card img {
+  @apply rounded-full h-40 w-40 border-r-8 border-yellow-500;
+}
+
+.reviews__card p2 {
+  @apply font-bold;
+}

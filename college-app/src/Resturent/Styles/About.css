@@ -1,0 +1,26 @@
+.about {
+  @apply gap-5 pb-5 px-5 relative mt-10 flex justify-evenly items-center flex-wrap;
+}
+.about__img {
+  display: flex;
+  width: 50%;
+}
+.about__img img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+.about__info {
+  height: 400px;
+  background: rgba(94, 86, 86, 0.3);
+  width: 40%;
+  @apply px-5 items-center flex rounded flex-col;
+}
+@media (max-width: 750px) {
+  .about__info {
+    flex: 100%;
+  }
+  .about__img {
+    flex: 100%;
+  }
+}

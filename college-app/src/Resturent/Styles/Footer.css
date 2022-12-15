@@ -1,0 +1,29 @@
+.footer__header {
+  @apply text-3xl font-bold flex uppercase justify-center pt-20 pb-10;
+}
+.footer__main {
+  background: rgba(61, 59, 59, 0.7);
+  @apply flex flex-col items-center justify-center gap-4 pb-10 h-40 w-full;
+}
+.footer__social {
+  @apply flex gap-4 justify-center;
+}
+
+.footer__icons {
+  @apply text-5xl z-50 border p-2 cursor-pointer rounded-full border-yellow-500;
+}
+.footer__build {
+  @apply flex select-none justify-center;
+}
+/* Show Card On hover */
+
+.footer__show {
+  @apply cursor-pointer relative;
+}
+.user__card {
+  display: none;
+  @apply flex-col   absolute  gap-3 pb-3 mb-12 left-0 right-0 bottom-0 z-10;
+}
+.footer__show:hover .user__card {
+  display: flex;
+}

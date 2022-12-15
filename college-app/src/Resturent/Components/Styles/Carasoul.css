@@ -1,0 +1,12 @@
+.carasoul__gallary {
+  height: 100vh;
+  @apply align-middle py-20 px-10;
+}
+.carasoul__img {
+  height: 70vh;
+  border-radius: 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: yellow;
+}

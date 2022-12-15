@@ -1,0 +1,52 @@
+.contact__header {
+  @apply text-3xl uppercase font-bold flex flex-wrap justify-center pt-20 pb-10;
+}
+.contact {
+  @apply flex gap-10 mx-10;
+}
+.contact__image {
+  position: relative;
+}
+
+.contact__test {
+  background: rgba(63, 61, 61, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.contact__image img {
+  flex: 40%;
+  height: 400px;
+}
+.contact__form {
+  flex: 50%;
+  @apply flex flex-col gap-4  items-center;
+}
+.contact__form input {
+  @apply py-1 w-full outline-none cursor-pointer rounded bg-transparent border border-yellow-500 mx-8;
+}
+.contact__form input:hover {
+  background: rgba(255, 211, 91, 0.541);
+  @apply transition-all duration-300 border-none outline-none;
+}
+.contact__form Button {
+  @apply w-40;
+}
+
+@media (max-width: 750px) {
+  .contact {
+    @apply flex flex-col mx-1;
+  }
+  .contact__image img {
+    flex: 100%;
+    width: 100%;
+  }
+  .contact__form {
+    flex: 100%;
+  }
+  .contact__form Button {
+    width: 80%;
+  }
+}
